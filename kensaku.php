@@ -28,8 +28,11 @@
           break;
         }
         print $rec['code'];
+        print '&nbsp';
         print $rec['nickname'];
+        print '&nbsp';
         print $rec['email'];
+        print '&nbsp';
         print $rec['goiken'];
         print '<br>';
       }
